@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+;按住右侧的Ctrl，同时连续按两次Scroll Lock
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\kbdhid\Parameters]
+"CrashOnCtrlScroll"=dword:00000001
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters]
+"CrashOnCtrlScroll"=dword:00000001

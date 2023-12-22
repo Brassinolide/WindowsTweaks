@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"DisableRemoteShutdownRPCInterface"=dword:00000001
+
+[HKLM\Software\Microsoft\Windows NT\CurrentVersion\Schedule]
+"DisableRpcOverTcp"=dword:00000001
+
+[HKLM\System\CurrentControlSet\Control]
+"DisableRPCOverTCP"=dword:00000001
+
+;HKLM\Software\Microsoft\Rpc\Internet
+;HKLM\Software\Microsoft\Rpc\Internet\UseInternetPorts="N"
