@@ -1,0 +1,12 @@
+﻿Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; Disable Downloaded Files from being Blocked in Windows
+; https://www.majorgeeks.com/content/page/how_to_disable_downloaded_files_from_being_blocked_in_windows.html
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Attachments]
+"SaveZoneInformation"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Attachments]
+"SaveZoneInformation"=dword:00000001
+
