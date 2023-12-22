@@ -1,0 +1,55 @@
+﻿{
+    "ver":"5.0",
+    "tag":"hipsuser",
+    "data":[
+        {
+            "id":3,
+            "power":1,
+            "name":"chrome",
+            "procname":"*",
+            "treatment":1,
+            "policies":[
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"C:\\Users\\自行更改当前用户名\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Bookmarks"
+                },
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"C:\\Users\\自行更改当前用户名\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Bookmarks.bak"
+                },
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"C:\\Users\\自行更改当前用户名\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Login Data"
+                },
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"C:\\Users\\自行更改当前用户名\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Login Data For Account"
+                },
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"C:\\Users\\自行更改当前用户名\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Network\\*"
+                },
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"C:\\Users\\自行更改当前用户名\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Web Data"
+                },
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"C:\\Users\\自行更改当前用户名\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History"
+                },
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"C:\\Users\\自行更改当前用户名\\AppData\\Local\\Google\\Chrome\\User Data\\Local State"
+                }
+            ]
+        }
+    ]
+}
