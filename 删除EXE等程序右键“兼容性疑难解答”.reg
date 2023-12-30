@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+;删除EXE等程序右键“兼容性疑难解答”
+[-HKEY_CLASSES_ROOT\batfile\ShellEx\ContextMenuHandlers\Compatibility]
+[-HKEY_CLASSES_ROOT\cmdfile\ShellEx\ContextMenuHandlers\Compatibility]
+[-HKEY_CLASSES_ROOT\exefile\shellex\ContextMenuHandlers\Compatibility]
+[-HKEY_CLASSES_ROOT\lnkfile\shellex\ContextMenuHandlers\Compatibility]
+[-HKEY_CLASSES_ROOT\Msi.Package\shellex\ContextMenuHandlers\Compatibility]
