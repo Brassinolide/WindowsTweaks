@@ -1,0 +1,1 @@
+netsh wfp set options netevents = off
