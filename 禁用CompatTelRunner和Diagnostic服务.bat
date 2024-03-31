@@ -5,7 +5,12 @@ pause>nul
 
 ::禁用CompatTelRunner
 schtasks /change /tn "\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" /disable
+schtasks /change /tn "\Microsoft\Windows\Application Experience\StartupAppTask" /disable
 
+schtasks /change /tn "\Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents" /disable
+schtasks /change /tn "\Microsoft\Windows\MemoryDiagnostic\RunFullMemoryDiagnostic" /disable
+
+pause
 ::一些诊断服务
 reg add "HKLM\SYSTEM\ControlSet001\Services\DiagTrack" /v "Start" /t "REG_DWORD" /d "4" /f
 reg add "HKLM\SYSTEM\ControlSet001\Services\diagsvc" /v "Start" /t "REG_DWORD" /d "4" /f
