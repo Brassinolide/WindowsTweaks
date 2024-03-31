@@ -29,4 +29,7 @@ reg add "HKLM\SYSTEM\ControlSet001\Services\WpnService" /v "Start" /t "REG_DWORD
 ::ipv6服务，纯ipv4可以关闭，根据需要修改
 reg add "HKLM\SYSTEM\ControlSet001\Services\iphlpsvc" /v "Start" /t "REG_DWORD" /d "4" /f
 
+::搜索索引服务，自带的搜索太烂了，禁用了用everything替代
+reg add "HKLM\SYSTEM\ControlSet001\Services\WSearch" /v "Start" /t "REG_DWORD" /d "4" /f
+
 pause
