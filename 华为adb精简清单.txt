@@ -1,0 +1,28 @@
+部分可以在设置里卸载的应用不在此处列出
+
+pm uninstall --user 0 com.huawei.search
+pm uninstall --user 0 com.huawei.vassistant
+pm uninstall --user 0 com.huawei.hitouch
+pm uninstall --user 0 com.huawei.hiaction
+pm uninstall --user 0 com.android.documentsui
+pm uninstall --user 0 com.huawei.contentsensor
+pm uninstall --user 0 com.huawei.ohos.suggestion
+pm uninstall --user 0 com.huawei.intelligent
+pm uninstall --user 0 com.android.mediacenter
+pm uninstall --user 0 com.huawei.music
+pm uninstall --user 0 com.huawei.ohos.famanager
+pm uninstall --user 0 com.huawei.wallet
+pm uninstall --user 0 com.huawei.skytone
+pm uninstall --user 0 com.huawei.hiskytone
+pm uninstall --user 0 com.huawei.fastapp
+pm uninstall --user 0 com.huawei.health
+pm uninstall --user 0 com.huawei.ohos.health
+pm uninstall --user 0 com.huawei.browser
+pm uninstall --user 0 com.android.browser
+pm uninstall --user 0 com.example.android.notepad
+pm uninstall --user 0 com.huawei.bd
+pm uninstall --user 0 com.huawei.hifolder
+pm uninstall --user 0 com.huawei.himovie
+pm uninstall --user 0 com.huawei.mirror
+pm uninstall --user 0 com.baidu.input_huawei
+pm uninstall --user 0 com.huawei.ohos.inputmethod
