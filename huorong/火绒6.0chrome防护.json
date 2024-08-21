@@ -1,0 +1,66 @@
+﻿{
+    "ver":"6.0",
+    "tag":"hipsuser",
+    "data":[
+        {
+            "procname":"*",
+            "id":2,
+            "name":"chrome",
+            "cmdline":"*",
+            "p_procname":"*",
+            "p_cmdline":"*",
+            "policies":[
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"C:\\Users\\ADMIN\\AppData\\Local\\Google\\Chrome\\User Data\\Local State",
+                    "res_cmdline":"*"
+                },
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"C:\\Users\\ADMIN\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Bookmarks",
+                    "res_cmdline":"*"
+                },
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"C:\\Users\\ADMIN\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Login Data",
+                    "res_cmdline":"*"
+                },
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"C:\\Users\\ADMIN\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Login Data For Account",
+                    "res_cmdline":"*"
+                },
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"C:\\Users\\ADMIN\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Network\\*",
+                    "res_cmdline":"*"
+                },
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"C:\\Users\\ADMIN\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Web Data",
+                    "res_cmdline":"*"
+                },
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"C:\\Users\\ADMIN\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
+                    "res_cmdline":"*"
+                },
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"C:\\Users\\ADMIN\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Bookmarks.bak",
+                    "res_cmdline":"*"
+                }
+            ],
+            "power":1,
+            "treatment":1
+        }
+    ]
+}

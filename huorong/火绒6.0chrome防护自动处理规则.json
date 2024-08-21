@@ -1,0 +1,18 @@
+﻿{
+    "ver":"6.0",
+    "tag":"hipsuser_auto",
+    "data":{
+        "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe":[
+            {
+                "res_cmdline":"*",
+                "res_path":"C:\\Users\\ADMIN\\AppData\\Local\\Google\\*",
+                "action_type":15,
+                "cmdline":"*",
+                "p_procname":"*",
+                "p_cmdline":"*",
+                "montype":1,
+                "treatment":0
+            }
+        ]
+    }
+}
